@@ -15,10 +15,17 @@
   font-size: 24px;
   margin: 0;
 }
+.card__title--red {
+  color: rgb(151, 0, 0);
+}
+
+.card__title--yellow {
+  color: rgb(151, 151, 0);
+}
 
 .card__content {
   margin-top: 16px;
-  text-align: center;
+  text-align: justify;
 }
 
 .card__image {
@@ -30,7 +37,6 @@
 .card__text {
   font-size: 16px;
   margin: 16px 0;
-  text-align: center;
 }
 
 .card__footer {
